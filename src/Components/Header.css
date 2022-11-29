@@ -1,0 +1,21 @@
+#navbg{
+    background: rgba(223, 56, 56, 0.4);
+}
+.header-container{
+    width: 100vw;
+}
+#brand{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.navheading{
+    color: white;
+}
+.navheading:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.space{
+    padding-right: 2rem !important;
+}

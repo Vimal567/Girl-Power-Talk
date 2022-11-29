@@ -1,0 +1,53 @@
+.Contact{
+    background-image: linear-gradient( #360736,#022222);
+    color: white;
+}
+.contact-para{
+    padding-top: 2rem;
+}
+.contact-container{
+    padding-bottom: 3rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(255, 87, 87);
+}
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+.separator{
+    background-image: linear-gradient( #156615,#4d640d);
+    height: 1rem;
+    margin-top: 3rem;
+}
+.apply-button{
+    border: none;
+    background-color: rgb(255, 87, 87);
+    color: white;
+    width: 7rem;
+    height: 2.5rem;
+}
+.apply-button:hover{
+    background-color: white;
+    color: black;
+}
+.contact-button{
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+}
+.contact-button:hover{
+    background-color: rgb(255, 87, 87);
+    color: white;
+}
+.social{
+    padding-top: 0.5rem;
+}
+.social-icons{
+    padding-left: 0.5rem;
+}

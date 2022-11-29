@@ -1,0 +1,26 @@
+.bubble-box{
+    width: 7rem;
+    position: fixed;
+    right: 3.5%;
+    bottom: 15%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid black 0.1px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    z-index: 1;
+}
+.bubble{
+    width: 5rem;
+    position: fixed;
+    right: 0.5%;
+    bottom: 1%;
+    z-index: 1;
+}
+.modals{
+    position: fixed;
+    bottom: 0%;
+    z-index: 1;
+}

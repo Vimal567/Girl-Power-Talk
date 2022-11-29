@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+.Home{
+    background-image: linear-gradient(to right, #d12323 , #e72d2d);
+    padding-top: 9rem;
+    min-height: 100vh;
+}
+.homebio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    color: rgb(23, 57, 131);
+    font-weight: bold;
+    font-size: 4rem;
+    padding-right: 5rem;
+}
+.hero-quote{
+    color: rgb(211, 139, 193);
+    padding-left: 5rem;
+    font-size: 1.2rem;
+}
+.hero-name{
+    font-family: 'Style Script', cursive;
+    font-size: x-large;
+    color: white;
+    font-size: 3rem;
+}
+.heroes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container {
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    padding-bottom: 1rem;
+}
+.hero-card{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    background-color: inherit;
+    border: none;
+}
+@media only screen and (width>=768px) {
+    .home-container{
+        margin-top: 4rem;
+    }
+}
+@media only screen and (width<576px) {
+    #Home{
+        padding-top: 11vh;
+        padding-bottom: 2rem;
+    }
+}
+@media only screen and (width>=768px) {
+    #Home{
+        padding-top: 18vh;
+        padding-bottom: 16rem;
+    }
+}
+@media only screen and (width>=992px) {
+    #Home{
+        padding-top: 18vh;
+    }
+}
+@media only screen and (width<576px) {
+    #homegrid{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+    }
+}
+@media only screen and (width>=768px) {
+    #homegrid{
+        padding-top: 8rem;
+        padding-bottom: 12rem;
+    }
+}
